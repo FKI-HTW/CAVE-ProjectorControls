@@ -1,0 +1,22 @@
+{
+  "com_ports": {
+    "COM4": "Acer",
+    "COM5": "Optoma",
+    "COM6": "Acer",
+    "COM7": "Optoma",
+    "COM8": "Acer",
+    "COM9": "Acer",
+    "COM10": "Acer",
+    "COM11": "Acer"
+  },
+  "projector_commands": {
+    "Acer": {
+      "ON": "* 0 IR 001\r",
+      "OFF": "* 0 IR 002\r"
+    },
+    "Optoma": {
+      "ON": "~0000 1\r",
+      "OFF": "~0000 0\r"
+    }
+  }
+}
